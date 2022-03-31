@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+{% csrf_token %}
+<title>Tweeter Search Using Vector Space Model </title>
+<head>
+    <link rel="stylesheet" href="{%  static  'css/index.css'  %}">
+</head>
+<body>
+
+
+<form action="/search" method="post">
+    {% csrf_token %}
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm"
+                   placeholder="What are you looking for? search in the current twitter trend">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+</form>
+<div class="result">
+    {% for i in tweets %}
+    {{ i }}
+    <br>
+    {% endfor %}
+</div>
+
+</body>
