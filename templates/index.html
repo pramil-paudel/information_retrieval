@@ -9,18 +9,22 @@
 
 
 <form action="/search" method="post">
+<img src= "{% static 'twitt.png' %}" class="centerImage" width="200" height="100" alt="Twingine" >
     {% csrf_token %}
-    <div class="wrap">
+    <div id="search" class="wrap">
+
+
         <div class="search">
+
             <input type="text" class="searchTerm"
-                   placeholder="What are you looking for? search in the current twitter trend">
+                   placeholder="What are you looking for? Search in the current twitter trend">
             <button type="submit" class="searchButton">
                 <i class="fa fa-search"></i>
             </button>
         </div>
     </div>
 </form>
-<div class="result">
+<div id ="result" class="result">
     {% for i in tweets %}
     {{ i }}
     <br>
