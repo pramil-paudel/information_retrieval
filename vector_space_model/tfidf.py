@@ -2,7 +2,7 @@ import os
 import re
 import math
 from collections import Counter
-converted_content = []
+# converted_content = []
 
 
 # print(contents)
