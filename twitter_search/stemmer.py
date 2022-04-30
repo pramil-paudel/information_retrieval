@@ -18,24 +18,11 @@ def token_stemmer():
             # content = content.encode('ascii', 'ignore').decode('ascii')#remove all non-ascii characters
             content = re.sub(r'http\S+', '',content)# removes urls
             content = re.sub(r'❤️+','', content)
-<<<<<<< HEAD
-
-            content = re.sub(r'[^\x00-\x7F]+', '', content)
-            content = re.sub(r'  ','',content)
-=======
-            content = re.sub(r'🟩','', content)
-            content = re.sub(r'🟨','', content)
-            content = re.sub(r'⬛','', content)
-
-
-
-            # content = re.sub(r'','',content)
             content = re.sub(r'[^\x00-\x7F]+', '', content)
             content = re.sub(r'  ','',content)
             # content = re.sub(r'\n','',content)
 
 
->>>>>>> 4ca2fb018d4e161efcf95aed91c41f48592a7998
             tweets.append(word_tokenize(content))
         stop_words = stopwords.words('english')
         new_words = ["!", "/", "#", ".", "@", " ", "[", "?","]","'", '"', ":", ";", ",", "-", "(", ")","``"] # some addition to the nltk stopwords
@@ -46,21 +33,13 @@ def token_stemmer():
 
             tweet.append([ps.stem(word) for word in words])
         tweet = list(filter(lambda x: x, tweet))
-<<<<<<< HEAD
-=======
         # print(tweet)
->>>>>>> 4ca2fb018d4e161efcf95aed91c41f48592a7998
         for list1 in tweet:
-
             final_tweet += ' '.join(word for word in list1)
             final_tweet += "\n"
         print(final_tweet)
-<<<<<<< HEAD
-       
-=======
         # while("" in final_tweet) :
             # final_tweet.remove("")
->>>>>>> 4ca2fb018d4e161efcf95aed91c41f48592a7998
         return(final_tweet)
         # print(final_tweet)
 
