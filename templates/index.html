@@ -4,19 +4,19 @@
 <title>Tweeter Search Using Vector Space Model </title>
 <head>
     <link rel="stylesheet" href="{%  static  'css/index.css'  %}">
+    <link rel="stylesheet" href="{%  static  'css/table.css'  %}">
+    <link rel="stylesheet" href="{%  static  'css/button.css'  %}">
 </head>
 <body>
 
 
-<form action="/search" method="post">
-<img src= "{% static 'twitt.png' %}" class="centerImage" width="200" height="100" alt="Twingine" >
-    {% csrf_token %}
+<form action="/search" method="get">
+
+    <img src="{% static 'twitt.png' %}" class="centerImage" width="200" height="100" alt="Twingine">
+        {% csrf_token %}
     <div id="search" class="wrap">
-
-
         <div class="search">
-
-            <input type="text" class="searchTerm"
+            <input name="query" type="text" class="searchTerm"
                    placeholder="What are you looking for? Search in the current twitter trend">
             <button type="submit" class="searchButton">
                 <i class="fa fa-search"></i>
@@ -24,11 +24,27 @@
         </div>
     </div>
 </form>
-<div id ="result" class="result">
-    {% for i in tweets %}
-    {{ i }}
-    <br>
-    {% endfor %}
-</div>
 
+
+    <form action="/raw_document" method="post" class="search">
+                {% csrf_token %}
+        <input type="Submit" value="Raw Document" align="center">
+    </form>
+
+    <form action="/stemmed_document" method="post" class="search">
+                {% csrf_token %}
+        <input type="Submit" value="Stemmed Document" align="center">
+    </form>
+
+
+<div id="result" align="center">
+    <table class="table">
+        {% for key, value in ranked_tweets.items %}
+        <tr>
+            <td>{{key}}</td>
+            <td>{{value}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
 </body>

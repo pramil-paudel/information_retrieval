@@ -6,8 +6,6 @@ from collections import Counter
 
 
 # converted_content = []
-
-
 # print(contents)
 # Returns Document Frequency
 def doc_freq(terms):
@@ -126,7 +124,7 @@ def document_representation(IDF, posting_list, no_of_docs):
 def print_vectors(doc_representation, dictionary):
     for col in range(len(doc_representation[0])):
         print(f'\tD{col}', end='')
-    print()
+    #print()
     for row in range(len(doc_representation)):
         print(dictionary[row], end='\t')
         for col in range(len(doc_representation[row])):
@@ -184,31 +182,63 @@ def tf_idf(IDF, terms):
     return tfidf
 
 
-with open("output.txt", "r") as data:
-    contents = data.readlines()
-    terms = []
-    # print((converted_content))
-    no_of_documents = len(contents)  # Counting the tweet as a single document
-    for content in contents:
-        # conversion to lower case
-        content = content.lower()
-        # remove punctuations
-        content = content.translate(str.maketrans('', '', string.punctuation))
-        content = content.strip().split()
-        # for term in content:
-        terms.append(content)
-    IDF, posting_list, dictionary = idf(terms)
-    doc_rep = document_representation(IDF, posting_list, len(terms))
-    print_vectors(doc_rep, dictionary)
-    Q1 = 'Gold Silver Truck.'
-    qv = query_vector(Q1, IDF)
-    print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
-    relevant_docs = ['D1', 'D3']
-    avg = centroid(doc_rep, relevant_docs)
-    # print(avg)
-    alpha = 1
-    beta = 0.5
-    relevant_qv = rochhio_algorithm(alpha, beta, doc_rep, qv, relevant_docs)
-    normalize_vector(relevant_qv)
-    # print(relevant_qv)
-    print(cosine_rank(doc_rep, relevant_qv))
+# with open("output.txt", "r") as data:
+#     contents = data.readlines()
+#     terms = []
+#     # print((converted_content))
+#     no_of_documents = len(contents)  # Counting the tweet as a single document
+#     for content in contents:
+#         # conversion to lower case
+#         content = content.lower()
+#         # remove punctuations
+#         content = content.translate(str.maketrans('', '', string.punctuation))
+#         content = content.strip().split()
+#         # for term in content:
+#         terms.append(content)
+#     IDF, posting_list, dictionary = idf(terms)
+#     doc_rep = document_representation(IDF, posting_list, len(terms))
+#     print_vectors(doc_rep, dictionary)
+#     Q1 = 'Gold Silver Truck.'
+#     qv = query_vector(Q1, IDF)
+#     print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
+#     relevant_docs = ['D1', 'D3']
+#     avg = centroid(doc_rep, relevant_docs)
+#     # print(avg)
+#     alpha = 1
+#     beta = 0.5
+#     relevant_qv = rochhio_algorithm(alpha, beta, doc_rep, qv, relevant_docs)
+#     normalize_vector(relevant_qv)
+#     # print(relevant_qv)
+#     print(cosine_rank(doc_rep, relevant_qv))
+
+def run_data_file(stemmed_data_file, query):
+    with open(stemmed_data_file, "r") as data:
+        contents = data.readlines()
+        terms = []
+        # print((converted_content))
+        no_of_documents = len(contents)  # Counting the tweet as a single document
+        for content in contents:
+            # conversion to lower case
+            content = content.lower()
+            # remove punctuations
+            content = content.translate(str.maketrans('', '', string.punctuation))
+            content = content.strip().split()
+            # for term in content:
+            terms.append(content)
+        IDF, posting_list, dictionary = idf(terms)
+        doc_rep = document_representation(IDF, posting_list, len(terms))
+        # print_vectors(doc_rep, dictionary)
+        Q1 = query
+        qv = query_vector(Q1, IDF)
+        #print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
+        relevant_docs = ['D1', 'D3']
+        avg = centroid(doc_rep, relevant_docs)
+        # print(avg)
+        alpha = 1
+        beta = 0.5
+        relevant_qv = rochhio_algorithm(alpha, beta, doc_rep, qv, relevant_docs)
+        normalize_vector(relevant_qv)
+        # print(relevant_qv)
+        final_output = cosine_rank(doc_rep, relevant_qv)
+        #print(final_output)
+        return final_output
