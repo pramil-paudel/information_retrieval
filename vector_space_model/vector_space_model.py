@@ -3,6 +3,8 @@ import re
 import math
 import string
 from collections import Counter
+
+
 # converted_content = []
 
 
@@ -139,7 +141,7 @@ def cosine_rank(doc_representation, query_vector):
         doc = f'D{col}'
         cos_sim = round(cosine_sim(column_vector(doc_representation, col), query_vector), 3)
         rank_dict[doc] = cos_sim
-    return dict(sorted(rank_dict.items(), key=lambda kv: kv[1], reverse= True))
+    return dict(sorted(rank_dict.items(), key=lambda kv: kv[1], reverse=True))
 
 
 def tf_idf(IDF, terms):
