@@ -24,6 +24,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', controller.test, name="Hello"),
     path('search', controller.search, name="Hello"),
+    path('stemmed_document', controller.stemmed_document, name="stemmed_document"),
+    path('raw_document', controller.raw_document, name="raw_document"),
 
 ]
 urlpatterns += staticfiles_urlpatterns()
