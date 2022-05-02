@@ -13,7 +13,7 @@
 <form action="/search" method="get">
 
     <img src="{% static 'twitt.png' %}" class="centerImage" width="200" height="100" alt="Twingine">
-        {% csrf_token %}
+    {% csrf_token %}
     <div id="search" class="wrap">
         <div class="search">
             <input name="query" type="text" class="searchTerm"
@@ -25,26 +25,67 @@
     </div>
 </form>
 
+<div id="filter_relevance" align="center">
+    <table class="table" align="center">
+        <tr>
 
-    <form action="/raw_document" method="post" class="search">
-                {% csrf_token %}
-        <input type="Submit" value="Raw Document" align="center">
-    </form>
+            <td>
+                <form action="/raw_document" method="get" class="search">
+                    <input type="hidden" id="hidden_10" name="query_data" value={{ query_data }}>
 
-    <form action="/stemmed_document" method="post" class="search">
-                {% csrf_token %}
-        <input type="Submit" value="Stemmed Document" align="center">
-    </form>
+                    {% csrf_token %}
+                    <input type="Submit" value="Raw Document" align="center">
+                </form>
+            </td>
+
+            <td>
+                <form action="/stemmed_document" method="get" class="search">
+                    <input type="hidden" id="hidden_20" name="query_data" value={{ query_data }}>
+
+                    {% csrf_token %}
+                    <input type="Submit" value="Stemmed Document" align="center">
+                </form>
+            </td>
+
+        </tr>
+    </table>
+</div>
 
 
 <div id="result" align="center">
-    <table class="table">
-        {% for key, value in ranked_tweets.items %}
-        <tr>
-            <td>{{key}}</td>
-            <td>{{value}}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    <strong> The search query is : {{ query_data }}</strong>
+        <table class="table" align="center">
+            <tr>
+                <td>SN</td>
+                <td>Tweet</td>
+                <td>Cosine Similarity</td>
+                <td>Relevant Feedback</td>
+                <td>Irelevant Feedback</td>
+            </tr>
+            {% for key, value in ranked_tweets.items %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{key}}</td>
+                <td>{{value}}</td>
+                <td>
+                    <form action="/relevant_tweet" method="get" class="search">
+                        <input type="hidden" id="hidden_1" name="query_data" value={{ query_data }}>
+                        <input type="hidden" id="hidden_2" name="tweet_id" value={{ forloop.counter }}>
+                        {% csrf_token %}
+                        <input style="color:green" type="Submit" value="R" align="center">
+                    </form>
+                </td>
+                <td>
+                    <form action="/irrelavant_tweet" method="get" class="search">
+                        <input type="hidden" id="hidden_11" name="query_data" value={{ query_data }}>
+                        <input type="hidden" id="hidden_21" name="tweet_id" value={{ forloop.counter }}>
+                        {% csrf_token %}
+                        <input style="color:red" type="Submit" value="IR" align="center">
+                    </form>
+
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
 </div>
 </body>

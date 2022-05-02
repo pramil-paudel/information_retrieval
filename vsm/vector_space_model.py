@@ -159,10 +159,15 @@ def centroid(doc_rep, documents):
 
 # Rochhio Algorithm on normalized docs, discarding irrelevant documents
 # Relevant doc in form ['D1', 'D2'] or [1,2]
-def rochhio_algorithm(alpha, beta, doc_rep, query_vector, relevant_doc):
+def rochhio_algorithm(alpha, beta, gamma, doc_rep, query_vector, relevant_doc, irelevant_docs):
     len_vector = len(query_vector)
     cen_rel_vector = centroid(doc_rep, relevant_doc)
-    return [round(alpha * query_vector[i] + beta * cen_rel_vector[i], 3) for i in range(len_vector)]
+    if irelevant_docs is not None:
+        cen_irl_vector = centroid(doc_rep, irelevant_docs)
+        return [round(alpha * query_vector[i] + beta * cen_rel_vector[i] - gamma * cen_irl_vector[i], 3) for i in
+                range(len_vector)]
+    else:
+        return [round(alpha * query_vector[i] + beta * cen_rel_vector[i], 3) for i in range(len_vector)]
 
 
 # Currently Not Used
@@ -208,7 +213,7 @@ def tf_idf(IDF, terms):
 #     # print(relevant_qv)
 #     print(cosine_rank(doc_rep, relevant_qv))
 
-def run_data_file(stemmed_data_file, query):
+def run_data_file(stemmed_data_file, query, rl, irl, doc_list):
     with open(stemmed_data_file, "r") as data:
         contents = data.readlines()
         terms = []
@@ -228,11 +233,17 @@ def run_data_file(stemmed_data_file, query):
         Q1 = query
         qv = query_vector(Q1, IDF)
         # print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
-        relevant_docs = ['D1', 'D3']
-        # print(avg)
         alpha = 1
         beta = 0.5
-        relevant_qv = rochhio_algorithm(alpha, beta, doc_rep, qv, relevant_docs)
+        gamma = 0.15
+        irelevant_docs = None
+        if irl:
+            irelevant_docs = doc_list
+        if rl:
+            relevant_docs = doc_list
+        else:
+            relevant_docs = ['D1', 'D3']
+        relevant_qv = rochhio_algorithm(alpha, beta, gamma, doc_rep, qv, relevant_docs, irelevant_docs)
         normalize_vector(relevant_qv)
         # print(relevant_qv)
         final_output = cosine_rank(doc_rep, relevant_qv)

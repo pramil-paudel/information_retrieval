@@ -22,10 +22,12 @@ from controller import controller
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', controller.test, name="Hello"),
+    path('', controller.test, name="Hello World !!"),
     path('search', controller.search, name="Hello"),
     path('stemmed_document', controller.stemmed_document, name="stemmed_document"),
     path('raw_document', controller.raw_document, name="raw_document"),
+    path('relevant_tweet', controller.relevant_data, name="relevant_tweet"),
+    path('irrelavant_tweet', controller.irelevant_data, name="irelevant_data"),
 
 ]
 urlpatterns += staticfiles_urlpatterns()
