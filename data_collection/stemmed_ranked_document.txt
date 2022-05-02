@@ -1,101 +1,95 @@
 Tweet/Document | Cosine Similarity
-parallel univers im live dream translat travel world|0.359
-reagankathryn_ cuuuuut|0.235
-mathieu need pull trigger sign deal dallascowboy|0.235
-got ta give prop man least know sign http //t.co/qv0cxlfea1|0.025
-need starlingmart hit close http //t.co/iiitqlaayl|0.019
-bryan need go actual real date idea|0.017
-ngl hate hibachi bc like dont need show give food http //t.co/lz05gxt9rq|0.014
-black men need use podcast talk femicid black women hand black men come u http //t.co/xrwatgsv7z|0.009
-ramblingamblin8 malcolm5xl hiphoptiesmedia http //t.co/rlvccdpkjn|0.0
-plsntvlyfarm bmreadel good ol kxrb|0.0
-y'all 've sleep hw 's n't energi 's give anxieti .... tonight http //t.co/h02l6r1edd|0.0
-weekend feel unreal|0.0
-love truli love http //t.co/im5zthjvyx|0.0
-watch episod thehomeedit ocd brain love organ sneakerhead closet l http //t.co/wyfnhcnq3g|0.0
-mike_5racin zeldapeax lambert_paul jasonmckey amygrask2 fact ya fi http //t.co/wlyfqfyzs6|0.0
-http //t.co/ymhyxaxuk7 http //t.co/l7yllyh8mt|0.0
-ercijan camello___http //t.co/uxcr6vll7o|0.0
-moviewatcher420 bro ive never driven anywher nearli bad chicago atroci|0.0
-sadsirenotr dayskiiiid theyhatelild wait dayskiid mani|0.0
-un naman pla eh http //t.co/p69u1ashqb|0.0
-pauljessup bring interest pointwork like republ metaphor chiefli didact even du http //t.co/q3uf474odb|0.0
-pic drop soon|0.0
-jimbobbennett twitterblu http //t.co/igfuwptxjn|0.0
-post photo la vega nevada http //t.co/6pfs5esikw|0.0
-cant win everyon group .. smh couldv great http //t.co/rmmhajp0hp|0.0
-http //t.co/bs0tc2rrcz|0.0
-cinefelix sure ill around|0.0
-exhoopsprguy prayer|0.0
-dolphin chang logo buy gear|0.0
-super70ssport http //t.co/hb0mhe5h2k|0.0
-validaaa doubt continu success|0.0
-badguymcfli wholesom 's|0.0
-pic last night match http //t.co/mgy9zcrvw6 field http //t.co/pddx4pidxg|0.0
-year art old blog go thank effort preserv year im happi http //t.co/ebrjnibgkj|0.0
-walk stair hard workout fitzperform stair hardworkout http //t.co/fl4hut8tk2|0.0
-llamalovinteach amazon donorschoos http //t.co/mjdonajckw|0.0
-emaiarac vocmuito foda|0.0
-join clean energi fuel team latest job open http //t.co/adcwzblh5q electricalrepairjob long island citi ny|0.0
-look like im readi go|0.0
-latest cabl shakedown 5 buck watch usfl peacock bloodi nut|0.0
-natali 1930 's hollywood vibe http //t.co/ukwqyiznq3|0.0
-knew racist especi tri find park omg http //t.co/4rjv9jwxr8|0.0
-man buy tacos/ mexican food pumps/ pay fuel reg price increas h http //t.co/osxdq9us1w|0.0
-bryskne lizardsview bro shhh|0.0
-'re hire control engin appli http //t.co/ik2nifwymq broadcasttechnicianjob newport beach ca|0.0
-russian invad loot massiv http //t.co/l9ikksgbiz via youtub|0.0
-alesanzal65 que esperaba de lo hino de un gallego que llego cuba combatir nuestro esfuerzo para ser libr del yugo espaol|0.0
-see latest newport beach ca job open http //t.co/qgajbfvnph associ control engin broadcastjob|0.0
-possibl hot take mlb consider enjoy watch sinc nl adopt dh sundaynightbasebal|0.0
-join clean energi fuel team latest job open http //t.co/zn8bwmcm8l computersupportjob newport beach ca|0.0
-chattah4nevada libertywatchmag sincer prayer lion stand defend chri http //t.co/55lnajsskk|0.0
-thing shouldnt allow eat airplan popcorndoritosasian foodanyth eggsbeef jerkysoupwhat miss|0.0
-dave_barrio cant even keep track jaja|0.0
-akamisterjayem bsdtectr wttw hey eddiegriffin1 -- marin angel cover river tour rememb find archiv|0.0
-'re hire servic technician 1 boston appli http //t.co/udt7tkbnf1 electricalrepairjob boston|0.0
-teresabradon care|0.0
-jackie_xo|0.0
-see latest twinsburg oh job open http //t.co/xm246tsbn5 servic technician 1 twinsburg oh telecomjob|0.0
-wonderbreadmma sugaseanmma ye|0.0
-join clean energi fuel team latest job open http //t.co/7mpyunqfzp telcoinstal groveport oh|0.0
-carsonkrow joke|0.0
-resumen de mi domingo/ una semana heavi buena noch http //t.co/3y6h4jggdg|0.0
-'re hire call center rep 2 appli http //t.co/8wrysrcdbh telemarketerjob san diego ca|0.0
-there noth like sister|0.0
-bayou_dawg lounge_dawg oh said lord let us win never ask anyth ever|0.0
-joebudden want smoke http //t.co/0mvkoym3z4|0.0
-beauti http //t.co/gg7wkcqmgq|0.0
-michaelwgerhart broadview height way show via car & amp wing car & amp coffe superfli sunday http //t.co/xxgde2harh|0.0
-peopl process technolog 3 main factor decid direct new tech platform peopl bei http //t.co/vt26797lcc|0.0
-justinjoboyl nilocobau emilyleldridg epicureand graph say princip citi ''|0.0
-xplrmymind http //t.co/j4syvshyji|0.0
-test_plac 7481c824-fdff-469a-b47e-2f643547b129|0.0
-vleighblu n't understand democrat n't hillari specul 's russian asset thin http //t.co/igxb8lmvgi|0.0
-wan na brag kenziedenny25 second girl came play weekend http //t.co/p2w98gxsnb|0.0
-yonicemask elpenoltepeh assum ration reason he autocrat http //t.co/99e79mas4c|0.0
-giant bulg '' metaphor writer 's block def feel like http //t.co/368a70cejb http //t.co/qeuwfogyyj|0.0
-boredspaceap http //t.co/y5f5in9fcu|0.0
-rich differ option headlin includ home estat mansion mani ca lockdown http //t.co/vw9czahwsi|0.0
-cheyrupert13 tri warm compress liter wrap head heat blanket help lot|0.0
-montedutton soconjohn22 http //t.co/cmdfld5qx0|0.0
-meer442 cbcreepz kaijukingz othersidemeta 51|0.0
-god chang bad moment good moment blink eye stayposit bless|0.0
-bethinthenati give desire/pressur expert fun import feel like http //t.co/r05q11s4qi|0.0
-want dare thtdamndoll_ lol|0.0
-your invit bali black travel fest save $ 150 code blaxit150 http //t.co/xdhvwxxn7q|0.0
-marvinfreeman84 andruwjones25 realli disrespect outfield play home run strikeout http //t.co/hiuxkfmmuq|0.0
-danielshawau nwslubbock watch live beauti work|0.0
-ubasv cual adiestramiento http //t.co/qaqxcaauuw|0.0
-soyguu4 magyfl marilync72 anniesmell_bori matygarcia soledad1512 javierabayn2 denisselebron evelyn1966ama http //t.co/rf3iqpmwoo|0.0
-repgosar much putin pay|0.0
-lancegooden ye|0.0
-jretterman2 shake2roli dyfrex___ realcorykinnan lol bryce didnt 3 1st round pick receiv .. & amp still made natti|0.0
-cuando preguntan que quiero http //t.co/tljgo38lbm|0.0
-despit travel ahead feverishli work busi review afternoon actual feel ok thank http //t.co/b2kxy5phcf|0.0
-http //t.co/2clmc7ddpk|0.0
-make cartoon pictur profil pic|0.0
-sig alert multi-vehicl crash left lane downtownla 10 i-10 santa monica fwi eb hoover st http //t.co/r7vfshjcc3|0.0
-kenzibishara eye say bruh congrat hustler|0.0
-man authent mexican food got fuck toilet|0.0
-vehicl fire sanmateo ca-92 wb delawar st stop traffic back 101 bayarea traffic http //t.co/pmlohzurwr|0.0
+fenellascorn bet better mine|0.236
+boy date tomorrow|0.235
+danea sander student universityofga own three busi light worldwid llc healthi happi hair danea digit design christian exercis faith one apparel compani light worldwid entrepreneur|0.174
+bet gone need key back truth come theestallion torylanez|0.033
+jansportbyu tanmart03 tiffanee_dawn kat realli bad defens size rebound score pass well put solid defend 1 3 4 think that better defens team small ball jazz current|0.018
+sever thunderstorm warn continu lefor tx 12:15 cdt|0.0
+didnt anyon tell spiderman way home good|0.0
+cook usdachoic steak tonight siliconvalleylif god watch right reserv silicon valley california|0.0
+music differ day hit song 10 year ago wouldnt hit today|0.0
+much time spend gym photo show progress far also final found good light park lot|0.0
+fuuuck yeah nin turnoffthenewsturnupthemus|0.0
+ima straight|0.0
+thehonorablemlw joncoopertweet that twitter way|0.0
+writer_dg outlander_starz starzplayuk 're kill small 're kill|0.0
+justicetournew plz go like post post video show|0.0
+ho ho work girl|0.0
+swim suit bikinisal summer ... say 2 cloth|0.0
+jrartspace_nft ye|0.0
+ofarrel forc us redistrict & amp im excit vote hugo|0.0
+pretti amaz listen whcd whcd2022 trevornoah|0.0
+dont tell houston ask side town say cleveland conro atascocita caus aint houston|0.0
+peystormauthor big|0.0
+im sit tear run face sit floor watch live perform cat think that gay|0.0
+start treat bitch like shein product look good onlin wear hoe buss em get shein|0.0
+nodegreedotcom|0.0
+aydenstonex arosftw como sabe por que el mo es chino tien un ps5 que sabe tanto sobr ella|0.0
+emnicolefl|0.0
+ryousifacu mohammedalbra19 ed|0.0
+la spoil sport team realli unfair state like pennsylvania lol|0.0
+jacob_dale97 nice|0.0
+moraxjon rosshhhiiiii jbrous41 got sodium chlorid cuz|0.0
+im sorri anyth|0.0
+stopmrdomino also im social stunt shut comfort enough vr sing karaok random stranger that realli fuck cool|0.0
+wordl 317 5/6|0.0
+ltc night 3 sorellajem tag|0.0
+busi weekend puma countri adlif|0.0
+need lip combo|0.0
+pl wan na aunt|0.0
+patriottak danger nut job whose follow might act rhetoric.and harm target inflammatori programs.fre speech doesnt give right inclin promot violence.a presid congress declar war constitutional.hi|0.0
+sitbackrelaxfun|0.0
+idea comment come instead post|0.0
+shebainpdx mkurfi|0.0
+first episod theyv alreadi quot nene porsha rhoa|0.0
+cwilhelm2014 sethcotlar 've heard trump 've heard|0.0
+cruddi act confus|0.0
+wonder night celebr friendship us & amp israel discuss foreign polici sever neighbor colleagu mn01 thank cufi nikkihaley pastor john hage & amp yinamcohen enlighten event|0.0
+museum dream space|0.0
+amen prosecut|0.0
+europeankidsmatt|0.0
+dev2dust danc wolv '' great film shakespear love '' even leagu co-nomine save privat ryan '' actual|0.0
+forgot good quarantin playlist|0.0
+datboywolf nice citi great weather|0.0
+gillinoakhil ah man nice titti tho|0.0
+watch boruto go sleep|0.0
+whiskey_dreams_|0.0
+shanjeniah sweetcoffeedream friend see next time|0.0
+young go hawaii say lessss|0.0
+tat lucki love put damn wig time night|0.0
+use web2 get peopl web3.i even start tiktok garyve creat educ provid valu dox consist|0.0
+washingtonpost bettcha doesnt even know count von count|0.0
+4girlsglamour wild|0.0
+icymi 4.30.22 north korea 's kim jong un warn 'preemptiv use nuclear force.th string weapon test come south korea prepar incom presid yoon suk-yeol take hawkish approach pyongyang.via france24|0.0
+wish red fo go destroy franchis top bottom liter thing n't turn around soon enough see team 130 loss hope 'm wrong n't see much encourag sign|0.0
+theeliklein cernovich sad|0.0
+obsexvando en mi boca|0.0
+justsomelady_ buckley jr said commun take system rich poor turn poor|0.0
+heluvkabrona theresawinnn min long sent 45 sec long|0.0
+ye|0.0
+tmikamous send link|0.0
+bt ptd lv day 3these seat unreal s/o noona seat ptd_on_stage_lv_day3 ptd_on_stage_lasvega bt btsarmi|0.0
+vtg_lilacbabi idlediego hiimatla ok well timezon enter whorekne hour ok|0.0
+stay sketchi hotel gallup nm reserv road hour ago 8/10 rating.pul 2 cop park entranc go inquir 's happen clerk seem unfaz oh 're look person interest ''|0.0
+clean room rain im sleep good|0.0
+boxing_bird81 ok that enough buddi|0.0
+therealjavamama sever follow same.i like wtf|0.0
+xguesswhobitchx sethbodnar hechingerreport come man ... 's daughter|0.0
+get call sir weird like|0.0
+construct ny27 eb brook avenu exit 44 brentwood road|0.0
+construct ny27 eb brook avenu exit 44 brentwood road|0.0
+pensando en el pasado|0.0
+look old pich look like dad santa clarita diet|0.0
+delhit mumbaikary bank ka raasta bataiyereplychurchg mein utarnekabahar bridg giregabridg ke neechey se jaanekasign giregaudhar right maarnekapetrol pump giregaleftl build giregaseeda tapkega tho sbi giregadelhite-itna girega main bachunga kais|0.0
+wordl 317 5/6|0.0
+love leav u cant teas|0.0
+im go mom best she gon na repli id step|0.0
+nickgroff_ paranorm lockdown far favorit show .. realli wish show like .. whole 72 hour place realli damn good idea ... way katrinaweidman would still one .... realli enjoy|0.0
+townhous|0.0
+carawil17888192 urgent someon pleas adopt rescu sweet dog|0.0
+weegoldencoop 's cute|0.0
+n't think spread provabl lie misinform cover first amend especi women 's nippl n't|0.0
+pinkblanco999 umm naurr|0.0
+definit bad bih|0.0
+holi moli pass 3k mark youtub n't even know great 'm increas focu hard year like golang stuff linux dotnet subscrib alreadi 30 video plan drop soon|0.0
+odd $ 9 sunglass arm reach lol goe bianca im go get said know that point.wel bought realiz even humbl back n day would buy everyth 4me|0.0

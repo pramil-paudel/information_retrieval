@@ -15,7 +15,7 @@ def search(request):
     query = search_query
     twitter_search_service = TweetIrs()
     # Calling Stemmer
-    twitter_search_service.extract_new_updated_tweets(False)
+    twitter_search_service.extract_new_updated_tweets(True)
     twitter_search_service.tokenize_and_stemming_the_data()
     query = twitter_search_service.tokenize_and_stemming_the_query(query)
     twitter_search_service.tfidf_and_vector_space_model(query)

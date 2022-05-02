@@ -1,11 +1,13 @@
 import tweepy
 import json
+import re
 
 # API Keys and Tokens
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = "kzOZpB6hBK621z4horT3axCs6"
+consumer_secret = "x3Tz2fxvEdhV95j6KM5prMu0wMLDW8HfqS5N3gjdMdEZytVl3v"
+access_token = "1119541254-Gavfixo22v3Sy810IAjeUfHB2HfKzAVHobzVGdA"
+access_token_secret = "aFRzUxgj29ofxcoEKxTYAg6AacNLSzB8EzCBROOX3MaE9"
+
 
 # Authorization and Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -30,8 +32,9 @@ def extract_top_tweets(file_to_write_raw_data):
     raw_data = open(file_to_write_raw_data, "w")
     document_name = 0
     for tweet in tweets:
+        tweet = re.sub(r'http\S+','',tweet.full_text)
         # raw_data.write(remove_new_line(str(document_name)) + "|" + tweet.text + "\n")
-        raw_data.write(remove_new_line(tweet.full_text) + "\n")
+        raw_data.write(remove_new_line(tweet) + "\n")
         document_name += 1
     raw_data.close()
 

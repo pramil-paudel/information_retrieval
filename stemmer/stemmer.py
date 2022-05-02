@@ -4,8 +4,12 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk
-nltk.download('stopwords')
+nltk.download('punkt')
 # Install nltk.download('punkt') too
+
+
+
+
 def tokenizing_and_stemming(raw_file_name, output_directory):
     tweets = []
     filter_tweet = []
@@ -17,7 +21,7 @@ def tokenizing_and_stemming(raw_file_name, output_directory):
         contents = data.readlines()
         for content in contents:
             # content = content.encode('ascii', 'ignore').decode('ascii')#remove all non-ascii characters
-            # content = re.sub(r'http\S+', '', content)  # removes urls
+            content = re.sub(r'http\S+', '', content)  # removes urls
             content = re.sub(r'❤️+', '', content)
             content = re.sub(r'[^\x00-\x7F]+', '', content)
             content = re.sub(r'  ', '', content)
