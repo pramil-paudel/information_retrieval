@@ -72,6 +72,6 @@ def remove_stopwords (tweet):
 
 
 # if __name__ == "__main__":
-    test = 'No not at all'
-    print(remove_stopwords(test))
+#     test = 'No not at all'
+#     print(remove_stopwords(test))
 # remove single character alphabets
