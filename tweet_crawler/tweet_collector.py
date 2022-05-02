@@ -35,6 +35,7 @@ def extract_top_tweets(file_to_write_raw_data):
         data = remove_hashtag(data)
         data = remove_mentions(data)
         data = remove_url(data)
+        data = remove_stopwords(data)
         if not is_alpha_numeric(data) and len(data) > 0:
             raw_data.write(tweet + "\n")
         document_name += 1

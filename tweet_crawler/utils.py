@@ -1,5 +1,6 @@
 import re
 import string
+from nltk.corpus import stopwords
 
 
 def remove_new_line(string_to_remove_new_line):
@@ -60,4 +61,17 @@ def is_alpha_numeric(tweet):
     tweet = re.sub(pattern, '', tweet)
     return tweet.strip().isalnum()
 
+def remove_stopwords (tweet):
+    stop_words = stopwords.words('english')
+    fresh_tweet = ''
+    terms = tweet.lower().split(' ')
+    for term in terms:
+        if term.strip() not in stop_words:
+            fresh_tweet = f'{fresh_tweet} {term}'
+    return fresh_tweet
+
+
+# if __name__ == "__main__":
+#     test = 'No not at all'
+#     print(remove_stopwords(test))
 # remove single character alphabets
