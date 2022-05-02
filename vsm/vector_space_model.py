@@ -45,8 +45,9 @@ def vector_length(column):
 # Normalize document vector
 def normalize_vector(column):
     vector_len = vector_length(column)
-    for i in range(len(column)):
-        column[i] = round(column[i] / vector_len, 3)
+    if vector_len > 0:
+        for i in range(len(column)):
+            column[i] = round(column[i] / vector_len, 3)
 
 
 # Find cosine similarity of two Normalized document vectors
@@ -228,7 +229,6 @@ def run_data_file(stemmed_data_file, query):
         qv = query_vector(Q1, IDF)
         # print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
         relevant_docs = ['D1', 'D3']
-        avg = centroid(doc_rep, relevant_docs)
         # print(avg)
         alpha = 1
         beta = 0.5

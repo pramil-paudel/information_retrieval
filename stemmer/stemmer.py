@@ -4,7 +4,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk
-nltk.download('punkt')
+nltk.download('stopwords')
 # Install nltk.download('punkt') too
 def tokenizing_and_stemming(raw_file_name, output_directory):
     tweets = []
