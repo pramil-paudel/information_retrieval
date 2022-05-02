@@ -124,7 +124,7 @@ def document_representation(IDF, posting_list, no_of_docs):
 def print_vectors(doc_representation, dictionary):
     for col in range(len(doc_representation[0])):
         print(f'\tD{col}', end='')
-    #print()
+    # print()
     for row in range(len(doc_representation)):
         print(dictionary[row], end='\t')
         for col in range(len(doc_representation[row])):
@@ -153,15 +153,16 @@ def centroid(doc_rep, documents):
     sum_vector = [0 for i in range(len(doc_rep))]
     for i in documents:
         sum_vector = [sum_vector[j] + column_vector(doc_rep, i)[j] for j in range(row_doc_rep)]
-    return [round(sum_vector[i]/no_relevant_doc, 3) for i in range(row_doc_rep)]
+    return [round(sum_vector[i] / no_relevant_doc, 3) for i in range(row_doc_rep)]
 
 
 # Rochhio Algorithm on normalized docs, discarding irrelevant documents
 # Relevant doc in form ['D1', 'D2'] or [1,2]
-def rochhio_algorithm (alpha, beta, doc_rep, query_vector, relevant_doc):
+def rochhio_algorithm(alpha, beta, doc_rep, query_vector, relevant_doc):
     len_vector = len(query_vector)
     cen_rel_vector = centroid(doc_rep, relevant_doc)
     return [round(alpha * query_vector[i] + beta * cen_rel_vector[i], 3) for i in range(len_vector)]
+
 
 # Currently Not Used
 def tf_idf(IDF, terms):
@@ -225,7 +226,7 @@ def run_data_file(stemmed_data_file, query):
         # print_vectors(doc_rep, dictionary)
         Q1 = query
         qv = query_vector(Q1, IDF)
-        #print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
+        # print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
         relevant_docs = ['D1', 'D3']
         avg = centroid(doc_rep, relevant_docs)
         # print(avg)
@@ -235,5 +236,5 @@ def run_data_file(stemmed_data_file, query):
         normalize_vector(relevant_qv)
         # print(relevant_qv)
         final_output = cosine_rank(doc_rep, relevant_qv)
-        #print(final_output)
+        # print(final_output)
         return final_output
