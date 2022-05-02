@@ -3,10 +3,10 @@ import re
 import json
 
 # API Keys and Tokens
-consumer_key = "kzOZpB6hBK621z4horT3axCs6"
-consumer_secret = "x3Tz2fxvEdhV95j6KM5prMu0wMLDW8HfqS5N3gjdMdEZytVl3v"
-access_token = "1119541254-Gavfixo22v3Sy810IAjeUfHB2HfKzAVHobzVGdA"
-access_token_secret = "aFRzUxgj29ofxcoEKxTYAg6AacNLSzB8EzCBROOX3MaE9"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 
 # Authorization and Authentication
