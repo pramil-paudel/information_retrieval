@@ -2,6 +2,7 @@ import os
 import re
 import math
 import string
+from stemmer.stemmer import tokenizing_and_stemming_a_query
 from collections import Counter
 
 
@@ -158,7 +159,7 @@ def centroid(doc_rep, documents):
 
 
 # Rochhio Algorithm on normalized docs, discarding irrelevant documents
-# Relevant doc in form ['D1', 'D2'] or [1,2]
+# Relevant doc in form ['D1', 'D2'] or [1,2, ----, n]
 def rochhio_algorithm(alpha, beta, gamma, doc_rep, query_vector, relevant_doc, irelevant_docs):
     len_vector = len(query_vector)
     cen_rel_vector = centroid(doc_rep, relevant_doc)
@@ -230,22 +231,17 @@ def run_data_file(stemmed_data_file, query, rl, irl, doc_list):
         IDF, posting_list, dictionary = idf(terms)
         doc_rep = document_representation(IDF, posting_list, len(terms))
         # print_vectors(doc_rep, dictionary)
-        Q1 = query
-        qv = query_vector(Q1, IDF)
-        # print(cosine_rank(doc_representation=doc_rep, query_vector=qv))
-        alpha = 1
-        beta = 0.5
-        gamma = 0.15
-        irelevant_docs = None
-        if irl:
+        query = tokenizing_and_stemming_a_query(query)
+        qv = query_vector(query, IDF)
+        if irl or rl:
+            alpha = 1
+            beta = 0.5
+            gamma = 0.15
             irelevant_docs = doc_list
-        if rl:
             relevant_docs = doc_list
+            relevant_qv = rochhio_algorithm(alpha, beta, gamma, doc_rep, qv, relevant_docs, irelevant_docs)
+            normalize_vector(relevant_qv)
+            final_output = cosine_rank(doc_rep, relevant_qv)
+            return final_output
         else:
-            relevant_docs = ['D1', 'D3']
-        relevant_qv = rochhio_algorithm(alpha, beta, gamma, doc_rep, qv, relevant_docs, irelevant_docs)
-        normalize_vector(relevant_qv)
-        # print(relevant_qv)
-        final_output = cosine_rank(doc_rep, relevant_qv)
-        # print(final_output)
-        return final_output
+            return cosine_rank(doc_rep, qv)
