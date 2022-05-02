@@ -1,100 +1,94 @@
 Tweet/Document | Cosine Similarity
-mrsdogc man wish still around run dog life aint|0.293
-dont eat dogsw eat hawt dog glizzi|0.275
-teacher day rock star night jaraiyia alizethank 106.3 definit enjoy readytogo poundtown chicago chicago illinoi http //t.co/meqnjr7ft7|0.239
-http //t.co/dhw9pnowlj|0.238
-http //t.co/fse8zlxvs4 http //t.co/orw5kezqv9|0.02
-support kind rock donorschoos help classroom need today http //t.co/ak5umece3n|0.02
-http //t.co/2arafaxr4d http //t.co/pb1zgko2ij|0.02
-sweet dream busi day pluto dogsoftwittt sweetdream goodnight http //t.co/oeqhum1sad|0.015
-http //t.co/l5ipsjphoo|0.014
-http //t.co/geh9wfouvk|0.014
-http //t.co/vxgsc7hpdm|0.014
-http //t.co/bgszdqfp5u|0.014
-http //t.co/gfghap3dik|0.014
-noth better color cauliflow friend 's hous 's absolut wonder day cauliflow weekend healthyfood cook http //t.co/0f9uiioil|0.011
-omartalksrap http //t.co/in6ejksdvk|0.011
-brokencool http //t.co/in6ejksdvk|0.011
-anitalasheaa http //t.co/ebfbspxvi9|0.01
-happi may day familyal power worker world foundat societi let continu fight build give peopl better world deserv http //t.co/vklcicnolb|0.01
-mehdi51573700 http //t.co/qczuxzaze|0.01
-challxn http //t.co/f3edomf2cb|0.01
-fuck love turtl http //t.co/edptoojtbc|0.008
-anywher methford man http //t.co/mnxwvtrdlz|0.008
-karitozar buena noch http //t.co/wirqvtq9pt|0.007
-post photo nile canyon http //t.co/jxrykwwyb|0.007
-confirm need win end http //t.co/4m99bsqx6i|0.007
-yall told kany villain http //t.co/ltwert00af|0.007
-wan na date stripper http //t.co/hmt8vg9djf|0.007
-call san agustin | puertadetierra sanjuan http //t.co/hfymecw4lv|0.006
-post photo vineyard cincinnati church http //t.co/yirhpbgurw|0.006
-y0_stephhh mattmason batcowl palmnft yeah let go http //t.co/gtsanzalht|0.006
-better act right cuz fw wait line http //t.co/dmj3sdmm6u|0.005
-sonoapollinaria brava protest putin 's authoritarian wwiii + global inhuman & amp climat harm.al resist peopl democraci & amp safe clean healthi & amp sustain environ * * unep http //t.co/oizzrh5my6 die_gdi 's alexia faus-onbargi etc http //t.co/1tr1a9k4tn|0.005
-slime show worst hand helmuth claim never fold smh http //t.co/gbiudoafx2|0.005
-still absolut shock abl see motionless white live trinityofterror motionlessinwhit miw http //t.co/7bvjdfr2o|0.004
-amaz view confer venu poster updat come soon exo4 exoplanets4 exo4 http //t.co/ybvgy5tnwt|0.004
-check work friend trevandeveld music work examin technolog music creat realli uniqu music experi http //t.co/kjwvjqudxi|0.003
-promis giannis_an34 team pick-up game take ball & amp go home peopl children & amp wive ca n't fool like front everybodi fearthed cc oldmanebro ebrointheam rosenbergradio http //t.co/zjxvzvpbp|0.003
-jordanaalynn tearsofjosh that truth|0.0
-crazi ass dream late|0.0
-deja___entendu thathav 520k follow|0.0
-airbnft kenankitchen via email promot spotifi|0.0
-y'all ... bpd win lmaooo|0.0
-danila09f hotwif realli measur ruler-tape-guess never had/chosen measur charli ''|0.0
-angryhalfmil best busi cullen street gocoog|0.0
-djrothkopf therynheart like plagu arent help us w/ democraci|0.0
-pilipinx american org co-found undergrad first in-person pacn show run through shake em bit lol|0.0
-rn jerk chicken|0.0
-njbearsfan d_hest23 lol love|0.0
-souk sabah bayram namaz ardndan scak ekmek gevrek ile gzel bir ailecek sabah kahvalt .. iyibayramlar|0.0
-suga_swt fluster|0.0
-dummy_ph way job im vegetarian duti|0.0
-irons1de1 cigarchairman calvinthomps99 mike_w_simpson bigbucky24 chacocii writercimasuda blaineblain thunder13tc amashbi hailie_ann_ themitch182 philvamo jarmhabano nelaperezb erickmichau davidsinagawa coachenkhorn feriotegocigar oilersfann83 chrismo12365268 mcornell03 shagrax5 anthonyerekat nanaimodud macwil22 sigurdson_chri jordan4cigar cigarboxboy 's good stick|0.0
-brocklanders41 sister jean|0.0
-colleg footbal nfl need come back soon enough red go look histor bad season n't think 'm go encourag bad product team thank terribl red fo least ohiostatefband dallascowboy|0.0
-williehandl dental plaqu friend like complet karmic record|0.0
-id prolli jayson tatum jersey team celtic|0.0
-lakotaman1 woozleweasel heart ach know done|0.0
-anyon go basebal game|0.0
-final back home readi bingewatch thing toast otv+f wooohoooo|0.0
-northsidenotch that nasti get though scotti b debut next buy|0.0
-tiph1981 look delici tiphani|0.0
-wonder use unus xxx content|0.0
-cryptokanucknft drewskiiinft apocalypticap aapequeen yeah hunt 2k lower rank .. lol|0.0
-even tho friday weekend still flew|0.0
-mysterysolv abus talk groom|0.0
-cuanto drama est sucediendo yo tan lejo|0.0
-darbybaileyxo 's pretti hard get win love much|0.0
-raisinsomniaqu nuuuu|0.0
-bafv07 bbi boy dont got shit name lmaooooooooooo|0.0
-birthday month|0.0
-shanjeniah oh btw id love hot chocol thank|0.0
-mlhbreeisland cap|0.0
-pittsburghsport put lot faith matt canada given much happi past season|0.0
-sometim press notifi anyway|0.0
-byjonheathdang quick|0.0
-accid hit run cold 4300 se 122nd ave port portland polic pp22000115491 21:14 pdx911|0.0
-unwant person 7400 n ida ave port portland polic pp22000115526 21:15 pdx911|0.0
-ejlowe1980 dalekanzl pleas reread tweet tell think said|0.0
-howiehighart tlecaqu got ordain one wed close friend dump us kid fun havent done sinc|0.0
-fresysaracho saw ankl monitor skimpi looker chick ... question charact ....|0.0
-sometim look mirror say im proud|0.0
-em0n33i niftygateway queen queen shit|0.0
-yo 's one chick everi time see pic ig whatev fabric wear cooch like damn babi let bih breath|0.0
-homeless atlanta funni man gone start danc wipe window lmao|0.0
-ihavedreamanna un believ|0.0
-aaaaaand brake car lock awesom aaa come|0.0
-yo tena un pequeo muro entr ello yo por que obvio son ms jvene tanto el medio del circuit tien su famita de la cual slo la de que la persona en ese medio eran odiosa creda era realment la nica que molestaba pero segu hablando con ello|0.0
-superraregam want guy know finish game speech end made cri thank word encourag|0.0
-barou2a5barou2a gebran_bassil|0.0
-reggie_d33|0.0
-lovrega ecatepec la 12 bajando de la combi|0.0
-skoljic1 joshuawsearci vd_jojo_ sentdefend ye cant use ukrain aton bush pointless militari oper|0.0
-andreaphilina philllll miss youuu|0.0
-final got see clooneeuk absolut vibehttp //t.co/dg9hdvqauk|0.0
-chang plan guess least got class next semest|0.0
-noahverri rich|0.0
-mommydearest_og dbencoomb failurebiden actforamerica keep immigr cuz america keep bomb countri|0.0
-world tour ya girl tour|0.0
-tinash like use|0.0
+handmad street fair goodi handcraft handmadejewelri homemad craft yarnart handmadejewelri handmadeear myfavoriteth craftersofinstagram ooak denton texa|0.708
+erobert30|0.707
+ercxspac caspar_stanley cirojgrijalva smvllstvr mayb iphon|0.0
+foreignelysian realkhalilu never justifi bitch ass thing said consent order process dont girl ill gladli get ignor howev isnt cup tea know take two signatur marriag valid sweetheart goodby|0.0
+duh weezi f babi|0.0
+becom adult realiz stuff thing bed 20 's long 's storag bin|0.0
+paulinaporizkov 59. oldandugli|0.0
+tedakin colteastwood dealer_gam|0.0
+fuck epic night excus im gon na cri tear joy|0.0
+emilygiangreco|0.0
+nah ive feel fr|0.0
+depu ten jodiendo ni llorando cuando yo muera balsa de mmg|0.0
+xxlalarosexx onealakuma01 079litti|0.0
+'re hire click appli server restaur team member framingham bostonmarket|0.0
+ate tootsi roll first time year want like 100|0.0
+shia fam n't forget recit ziarat e jamia kabirah last day ramzan|0.0
+st. paul home lewi mill 4 monday st. paul cathol high school|0.0
+fucken whistl kill caus|0.0
+rickwrightnow mascot 's teeth abnorm long ....|0.0
+stumbl old movie.not sure miss 're fan chri rock 'll find one surprisingli good|0.0
+.u suppos|0.0
+loveee|0.0
+mahogany_mama|0.0
+sheldonkruk yotestradecen seat price compar lower bowl gra way higher lower bowl ticket averag around $ 80 pregam gra asu area averag $ 140 per game coyot managementrais price 6 day select process $ 90 $ 140 per game sens demand high|0.0
+happi lighten thunder lay bed new pillow|0.0
+priscillux watch 've heard good thing ....|0.0
+ohcheetoh lol joke ok one dont judg|0.0
+everyday keep go|0.0
+sometim crave n get fill rage|0.0
+brettbutler1111 quit flatter follow pictur one gees|0.0
+im finna delet tweet|0.0
+throatgoatdai wya|0.0
+adan_1227 think level gore isnt tho im sure your invinc fan youd probabl like realli think choke hold gon na sum|0.0
+tornado northwest portland oregon realli washington counti helvetica counti oregon usa //youtu.be/zjdwflelmom|0.0
+lmfaoooooo|0.0
+216kobra thank bro|0.0
+dawndiamondhand that right|0.0
+he right fox right say worri climat democrat narrative.crim climat import|0.0
+liter best relationship ive ye mental ive gone thing need go noth w relationship final realiz life need|0.0
+dad would love eat bread bought today miss cafecito|0.0
+jackxalan glad your ok friend sure take care mental health someth none us recent gener ever taught import friend|0.0
+jbabysoliid|0.0
+captainxcart point exactli cut cap|0.0
+match energi & gt & gt|0.0
+rout today|0.0
+blackmustang111|0.0
+es increbl como mejora tu vida cuando decid sacar persona que solo consumen tu energa en lugar deja dio al frent de todo increbl|0.0
+taeler_hendrix one beatl song|0.0
+theaceofspaed your scare go church|0.0
+startedhow go|0.0
+thedoochman pray|0.0
+u post n share shit like im da wors ok coo|0.0
+see mean look rush|0.0
+lul boonk gang|0.0
+see hard pivot twitter career focus mind businesssf inspir|0.0
+exploit tf boyfriend proofread abil|0.0
+test_lat/lon 77450c85-9b22-4af0-a8e7-dfc5ada787a3|0.0
+2am_at_denni notch kylemccarthi sheeeeeeeesh channel chiiiiiiiiii|0.0
+stuck head weekend|0.0
+one bottom omg|0.0
+stvp68 made refer great bob dorough song record memor jsflymommi youv never listen time|0.0
+gorgeadir give crack head food instead leddo prayer|0.0
+romeebe aint way aint motha fuckin way bruh|0.0
+confin one planet get pretti annoy guess feel like lockedup least earth spacerock jail|0.0
+nobodi ever give sound advic work life balanc work life figur mantra|0.0
+dealer_gam dude troll big time|0.0
+lafc ryan hollingshead say guy team jelli well stay late locker room tell go home famili|0.0
+pmddomingo sorri european could breath air drink water grow crop soil america none true mar|0.0
+jeanne5082 noliewithbtc hmm interest presumpt statement|0.0
+medinaestefana love|0.0
+margal rothschildmd librari borrow download e-book|0.0
+need shroom trip pronto|0.0
+handl idiot ebay.send piec crap item screw u|0.0
+freethewzrd male fan polo shirt khaki nice jean tshirt one stupid say bonu point real luxuri brand fake porn perform way nicer think 're nice normal creepi predatori guy cont|0.0
+love song listen danc thatthat psi psy_oppa prod & amp feat suga bt bts_twt|0.0
+senior citizen custi smoke weed outsid work invit|0.0
+may bump head time get im go get im never look back|0.0
+eddybrock_yt scriptdoctorphd brand rubber cement injustic take place earth-22 altern univers eat less past|0.0
+7 month ago fell love showboat now.onli come|0.0
+taragracerfoto|0.0
+meekosuave dawg|0.0
+driplikena sinc septemb|0.0
+itsjozzrene na im a1 sinc day1|0.0
+ladychaga2188 holi shit ..... hot|0.0
+watch night galact railroad peopl discord.i um hope happier movie.now 'm sad campanella ...|0.0
+photobyvyp3r apo_lehr hot|0.0
+bookwormjourn congratul keep eye host sign up|0.0
+qlqtuvl siii tambin lo estoy pensando|0.0
+fantast host mrwolfcom powel yesterday work event five mr. wolf class seri almost feel ive grown graphic novel hold special place heart pleasur|0.0
+may forc|0.0
+albertksfong1 a1kita miss|0.0
+time rest|0.0
+gqbkr|0.0
