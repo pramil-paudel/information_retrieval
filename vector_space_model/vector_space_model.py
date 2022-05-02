@@ -143,11 +143,6 @@ def cosine_rank(doc_representation, query_vector):
         rank_dict[doc] = cos_sim
     return dict(sorted(rank_dict.items(), key=lambda kv: kv[1], reverse=True))
 
-# docs in for [1,2, ---, n]
-def sum_vectors (documents, doc_rep):
-    sum_vector = [0 for i in range(len(doc_rep))]
-    for i in documents:
-        sum_vector = [sum_vector[j] + column_vector(doc_rep, i)[j] for j in range(len(doc_rep))]
 
 # Relevant doc in form ['D1', 'D2'] or [1,2, ---, n]
 def centroid(doc_rep, documents):
