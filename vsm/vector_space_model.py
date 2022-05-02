@@ -162,12 +162,12 @@ def centroid(doc_rep, documents):
 # Relevant doc in form ['D1', 'D2'] or [1,2, ----, n]
 def rochhio_algorithm(alpha, beta, gamma, doc_rep, query_vector, relevant_doc, irelevant_docs):
     len_vector = len(query_vector)
-    cen_rel_vector = centroid(doc_rep, relevant_doc)
     if irelevant_docs is not None:
         cen_irl_vector = centroid(doc_rep, irelevant_docs)
-        return [round(alpha * query_vector[i] + beta * cen_rel_vector[i] - gamma * cen_irl_vector[i], 3) for i in
+        return [round(alpha * query_vector[i] - gamma * cen_irl_vector[i], 3) for i in
                 range(len_vector)]
     else:
+        cen_rel_vector = centroid(doc_rep, relevant_doc)
         return [round(alpha * query_vector[i] + beta * cen_rel_vector[i], 3) for i in range(len_vector)]
 
 
@@ -233,13 +233,18 @@ def run_data_file(stemmed_data_file, query, rl, irl, doc_list):
         # print_vectors(doc_rep, dictionary)
         query = tokenizing_and_stemming_a_query(query)
         qv = query_vector(query, IDF)
-        if irl or rl:
-            alpha = 1
-            beta = 0.5
-            gamma = 0.15
-            irelevant_docs = doc_list
+        alpha = 1
+        beta = 0.5
+        gamma = 0.15
+        if rl:
             relevant_docs = doc_list
-            relevant_qv = rochhio_algorithm(alpha, beta, gamma, doc_rep, qv, relevant_docs, irelevant_docs)
+            relevant_qv = rochhio_algorithm(alpha, beta, gamma, doc_rep, qv, relevant_docs, None)
+            normalize_vector(relevant_qv)
+            final_output = cosine_rank(doc_rep, relevant_qv)
+            return final_output
+        if irl:
+            irelevant_docs = doc_list
+            relevant_qv = rochhio_algorithm(alpha, beta, gamma, doc_rep, qv, None, irelevant_docs)
             normalize_vector(relevant_qv)
             final_output = cosine_rank(doc_rep, relevant_qv)
             return final_output

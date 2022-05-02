@@ -56,7 +56,10 @@ def raw_document(request):
 def relevant_data(request):
     query = request.GET.get('query_data', None)
     tweet_id = request.GET.get('tweet_id', None)
-    relevant_doc = [str("D" + str(tweet_id))]
+    line_data = open("data_collection/stemmed_ranked_document.txt").readlines()[int(tweet_id) - 1]
+    stemmer_line_data = open("data_collection/stemmer_output.txt").readlines()
+    document_id = stemmer_line_data.index(str(line_data.split("|")[0].strip() + "\n"))
+    relevant_doc = [str("D" + str(document_id))]
     twitter_search_service = TweetIrs()
     query = twitter_search_service.tokenize_and_stemming_the_query(query)
     twitter_search_service.tfidf_and_vector_space_model(query, True, False, relevant_doc)
@@ -73,7 +76,10 @@ def relevant_data(request):
 def irelevant_data(request):
     query = request.GET.get('query_data', None)
     tweet_id = request.GET.get('tweet_id', None)
-    irelevant_doc = [str("D" + str(tweet_id))]
+    line_data = open("data_collection/stemmed_ranked_document.txt").readlines()[int(tweet_id)-1]
+    stemmer_line_data = open("data_collection/stemmer_output.txt").readlines()
+    document_id = stemmer_line_data.index(str(line_data.split("|")[0].strip()+"\n"))
+    irelevant_doc = [str("D" + str(document_id))]
     twitter_search_service = TweetIrs()
     query = twitter_search_service.tokenize_and_stemming_the_query(query)
     twitter_search_service.tfidf_and_vector_space_model(query, False, True, irelevant_doc)

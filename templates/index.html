@@ -4,8 +4,9 @@
 <title>Tweeter Search Using Vector Space Model </title>
 <head>
     <link rel="stylesheet" href="{%  static  'css/index.css'  %}">
-    <link rel="stylesheet" href="{%  static  'css/table.css'  %}">
-    <link rel="stylesheet" href="{%  static  'css/button.css'  %}">
+    <link rel="stylesheet" href="{%  static  'css/new_table.css'  %}">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="{% static 'js/pagination.js' %}"></script>
 </head>
 <body>
 
@@ -25,8 +26,8 @@
     </div>
 </form>
 
-<div id="filter_relevance" align="center">
-    <table class="table" align="center">
+<div style="color:navy" id="filter_relevance" >
+    <table class="table" style="text-align:center;">
         <tr>
 
             <td>
@@ -54,7 +55,12 @@
 
 <div id="result" align="center">
     <strong> The search query is : {{ query_data }}</strong>
-        <table class="table" align="center">
+    <div class="pagination">
+        <ol id="numbers"></ol>
+    </div>
+
+    <table id="my-table">
+<!--        <table class="table" align="center">-->
             <tr>
                 <td>SN</td>
                 <td><strong>Tweet</strong></td>
