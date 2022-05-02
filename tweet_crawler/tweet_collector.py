@@ -33,8 +33,11 @@ def extract_top_tweets(file_to_write_raw_data):
     document_name = 0
     for tweet in tweets:
         tweet = re.sub(r'http\S+','',tweet.full_text)
+        tweet1 = re.sub(r'[^\x00-\x7F]+', '', tweet)
+        if len(tweet1) > 1 and tweet1.isascii()==True and tweet1 != '':
+            tweet1 = tweet
         # raw_data.write(remove_new_line(str(document_name)) + "|" + tweet.text + "\n")
-        raw_data.write(remove_new_line(tweet) + "\n")
+        raw_data.write(remove_new_line(tweet1) + "\n")
         document_name += 1
     raw_data.close()
 

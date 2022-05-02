@@ -49,6 +49,8 @@ def tokenizing_and_stemming(raw_file_name, output_directory):
         output_data.write(final_tweet)
         return output_file_path
 
+def remove_new_line(string_to_remove_new_line):
+    return string_to_remove_new_line.strip().replace("\n", "")
 
 def tokenizing_and_stemming_a_query(query_to_stem):
     tweets = []
@@ -74,6 +76,7 @@ def tokenizing_and_stemming_a_query(query_to_stem):
     stop_words.extend(new_words)
     for words in tweets:
         filter_tweet.append([word for word in words if not word.lower() in stop_words])
+
     for words in filter_tweet:
         tweet.append([ps.stem(word) for word in words])
     tweet = list(filter(lambda x: x, tweet))
@@ -81,6 +84,7 @@ def tokenizing_and_stemming_a_query(query_to_stem):
     for list1 in tweet:
         final_tweet += ' '.join(word for word in list1)
         final_tweet += "\n"
+    final_tweet = remove_new_line(final_tweet)
     return final_tweet
 
 if __name__ == "__main__":
