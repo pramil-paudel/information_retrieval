@@ -17,7 +17,7 @@ def tokenizing_and_stemming(raw_file_name, output_directory):
         contents = data.readlines()
         for content in contents:
             # content = content.encode('ascii', 'ignore').decode('ascii')#remove all non-ascii characters
-            content = re.sub(r'http\S+', '', content)  # removes urls
+            # content = re.sub(r'http\S+', '', content)  # removes urls
             content = re.sub(r'❤️+', '', content)
             content = re.sub(r'[^\x00-\x7F]+', '', content)
             content = re.sub(r'  ', '', content)
