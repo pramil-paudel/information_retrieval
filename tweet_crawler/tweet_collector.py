@@ -8,6 +8,7 @@ consumer_key = "kzOZpB6hBK621z4horT3axCs6"
 consumer_secret = "x3Tz2fxvEdhV95j6KM5prMu0wMLDW8HfqS5N3gjdMdEZytVl3v"
 access_token = "1119541254-Gavfixo22v3Sy810IAjeUfHB2HfKzAVHobzVGdA"
 access_token_secret = "aFRzUxgj29ofxcoEKxTYAg6AacNLSzB8EzCBROOX3MaE9"
+fingerprints = []
 
 
 # Authorization and Authentication
@@ -38,7 +39,9 @@ def extract_top_tweets(file_to_write_raw_data):
         data = remove_hashtag(data)
         data = remove_mentions(data)
         data = remove_punctuations(data)
-        if is_alpha_numeric(data) and len(data) > 0:
+        fingerprint_tweet = fingerprint(tweet)
+        if is_alpha_numeric(data) and len(data) > 0 and not check_duplicate(fingerprint_tweet, fingerprints):
+            fingerprints.append(fingerprint_tweet)
             raw_data.write(tweet + "\n")
         document_name += 1
     raw_data.close()

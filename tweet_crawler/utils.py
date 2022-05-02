@@ -1,6 +1,7 @@
 import re
 import string
 from nltk.corpus import stopwords
+import hashlib
 
 
 def remove_new_line(string_to_remove_new_line):
@@ -70,8 +71,20 @@ def remove_stopwords (tweet):
             fresh_tweet = f'{fresh_tweet} {term}'
     return fresh_tweet
 
+def fingerprint (tweet):
+    m = hashlib.sha256()
+    m.update(tweet.encode())
+    return m.digest().hex()
 
-# if __name__ == "__main__":
-#     test = 'No not at all'
-#     print(remove_stopwords(test))
+def check_duplicate (fingerprint_tweet, fingerprints):
+    if fingerprint_tweet in fingerprints:
+        return True
+    return False
+
+
+
+if __name__ == "__main__":
+    test = 'No not at all'
+    print(fingerprint(test).hex())
+
 # remove single character alphabets
