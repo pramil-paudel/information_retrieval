@@ -60,9 +60,10 @@ class TweetIrs:
 
         for key, value in output_dict.items():
             line_number = int(key[1:])
-            content_two_write_in_stemmed = stemmed_unranked_document_reader[line_number].strip() + "|" + str(value)
             content_two_write_in_raw = raw_unranked_document_reader[line_number].strip() + "|" + str(value)
-            stemmed_ranked_document.write(content_two_write_in_stemmed + "\n")
             raw_ranked_document.write(content_two_write_in_raw + "\n")
+            if value > 0:
+                content_two_write_in_stemmed = stemmed_unranked_document_reader[line_number].strip() + "|" + str(value)
+                stemmed_ranked_document.write(content_two_write_in_stemmed + "\n")
         stemmed_ranked_document.close()
         raw_ranked_document.close()
