@@ -18,7 +18,7 @@ class TweetIrs:
         self.name = "search_service"
         self.data_directory = "data_collection"
         self.data_location = "data_collection/raw_tweets.txt"
-        self.stemmer_output = "data_collection/raw_tweets.txt"
+        self.stemmer_output = "data_collection/stemmer_output.txt"
         self.stemmed_ranked_document = "data_collection/stemmed_ranked_document.txt"
         self.raw_ranked_document = "data_collection/raw_ranked_document.txt"
 
